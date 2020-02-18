@@ -1,0 +1,154 @@
+body {
+    background: lightgrey;
+}
+
+.nav-color {
+    background: white;
+    padding: 0;
+}
+
+.top-style {
+    display: inline-block;
+    background: crimson;
+    width: 200px;
+    text-align: center;
+    margin-left: 4%;
+}
+
+.top-style h1 {
+    display: inline;
+    color: white;
+   
+}
+
+h3 {
+    color: crimson;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.top-text {
+    color: red;
+}
+
+.dropdown-color {
+    background: white;
+}
+
+.home-left-image {
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 280px;
+    max-height: 280px;    
+    margin-top: -10px;
+}
+
+.home-left-p {
+    max-width: 710px;
+}
+
+
+.vis-left-p {
+    max-width: 710px;
+    float: center;
+
+}
+
+.left-box {
+    background: white;
+    display: inline-block;
+}
+
+.vis-left-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 550px;  
+}
+
+.right-box {
+    background: white;
+}
+
+.wrapper {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 250px;    
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.wrapper-c {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper-c img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 450px;    
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.wrapper-v {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper-v img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 400px;    
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.vis-border {
+    border: 1px solid crimson;
+}
+
+th {
+    background-color: crimson;
+    color: white;
+  }
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table {
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+}
+
+@media (max-width: 992px) {
+    .nav-color {
+        background: crimson;
+    }
+  }
+  
